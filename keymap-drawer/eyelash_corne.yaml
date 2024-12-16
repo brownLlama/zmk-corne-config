@@ -44,8 +44,8 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
   - LGUI
-  - {t: '$$mdi:keyboard-space$$', h: Meta}
-  - {t: '$$mdi:keyboard-return$$', h: SYMBOL}
+  - Meta
+  - SYMBOL
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-control$$
   Meta:
@@ -64,9 +64,9 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-caps$$
   - RGB BRI
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&left_half'
+  - '&next_screen'
+  - '&right_screen'
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - PREVIOUS
   - PLAY PAUSE
@@ -79,9 +79,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-shift$$
   - RGB BRD
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&one_third'
+  - '&full_screen'
+  - '&two_third'
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
