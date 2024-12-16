@@ -45,6 +45,71 @@
         tap-ms = <30>;
     };
 
+    macros {
+        scroll_screenshot: scroll_screenshot {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LG(NUMBER_1))>;
+            label = "SCROLL_SCREENSHOT";
+        };
+
+        text_screenshot: text_screenshot {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LG(NUMBER_2))>;
+            label = "TEXT_SCREENSHOT";
+        };
+
+        screenshot: screenshot {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LG(NUMBER_3))>;
+            label = "SCREENSHOT";
+        };
+
+        left_half: left_half {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(LC(LG(LEFT)))>;
+            label = "LEFT_HALF";
+        };
+
+        next_screen: next_screen {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(LC(LG(UP)))>;
+            label = "NEXT_SCREEN";
+        };
+
+        right_screen: right_screen {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(LC(LG(RIGHT)))>;
+            label = "RIGHT_SCREEN";
+        };
+
+        one_third: one_third {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(LG(LEFT))>;
+            label = "ONE_THIRD";
+        };
+
+        two_third: two_third {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(LG(RIGHT))>;
+            label = "TWO_THIRD";
+        };
+
+        full_screen: full_screen {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(LC(LG(M)))>;
+            label = "FULL_SCREEN";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
