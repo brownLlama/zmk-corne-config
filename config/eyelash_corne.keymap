@@ -4,6 +4,8 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 
 /*
@@ -137,13 +139,13 @@
             sensor-bindings = <&scroll_encoder>;
         };
 
-        raise_layer {
-            display-name = "SYMBOL";
+        function_layer {
+            display-name = "Function";
             bindings = <
-&none           &none      &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3  &kp NUMBER_0                  &none         &kp RA(N)         &kp RA(E)         &kp RA(L)       &kp MINUS   &kp LEFT_BRACKET  &kp BSPC
-&none           &none      &kp NUMBER_4  &kp NUMBER_5   &kp NUMBER_6  &none                  &none  &none  &none  &kp LEFT          &kp DOWN          &kp UP          &kp RIGHT   &kp SEMI          &none
-&kp LA(LSHIFT)  &kp GRAVE  &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9  &none         &none           &none         &kp LS(NUMBER_4)  &kp LS(NUMBER_6)  &kp RA(LS(N7))  &kp LS(N7)  &kp SINGLE_QUOTE  &kp RIGHT_SHIFT
-                                         &kp RIGHT_ALT  &kp LEFT_GUI  &kp LCTRL                                   &none             &kp SPACE         &none
+&none           &none      &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3  &kp NUMBER_0                               &mmv MOVE_UP                     &kp RA(N)         &kp RA(E)         &kp RA(L)       &kp MINUS   &kp LEFT_BRACKET  &kp BSPC
+&none           &none      &kp NUMBER_4  &kp NUMBER_5   &kp NUMBER_6  &none                      &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT          &kp DOWN          &kp UP          &kp RIGHT   &kp SEMI          &none
+&kp LA(LSHIFT)  &kp GRAVE  &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9  &none         &mkp RCLK                    &mmv MOVE_DOWN                   &kp LS(NUMBER_4)  &kp LS(NUMBER_6)  &kp RA(LS(N7))  &kp LS(N7)  &kp SINGLE_QUOTE  &kp RIGHT_SHIFT
+                                         &kp RIGHT_ALT  &kp LEFT_GUI  &kp LCTRL                                                                   &none             &kp SPACE         &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>;
