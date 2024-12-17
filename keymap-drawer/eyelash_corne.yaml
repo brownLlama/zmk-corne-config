@@ -51,9 +51,9 @@ layers:
   Meta:
   - RGB TOG
   - RGB EFR
+  - '&scroll_screenshot'
   - '&text_screenshot'
   - '&screenshot'
-  - '&scroll_screenshot'
   - BT CLR ALL
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: AGr+ 8, s: AGr+ *}
