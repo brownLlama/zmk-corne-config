@@ -34,7 +34,7 @@ layers:
   - C
   - V
   - B
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-down-bold$$
   - N
   - M
@@ -51,9 +51,9 @@ layers:
   Meta:
   - RGB TOG
   - RGB EFR
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
-  - {t: '4', s: $}
+  - '&text_screenshot'
+  - '&screenshot'
+  - '&scroll_screenshot'
   - BT CLR ALL
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: AGr+ 8, s: AGr+ *}
