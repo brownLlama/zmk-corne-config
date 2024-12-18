@@ -9,7 +9,7 @@ config ZMK_KEYBOARD_NAME
     default "Eyelash Corne"
 
 config ZMK_SPLIT_ROLE_CENTRAL
-    default n
+    default y
 
 endif # BOARD_EYELASH_CORNE_LEFT
 
@@ -30,7 +30,7 @@ config BOARD_ENABLE_DCDC_HV
     depends on (BOARD_EYELASH_CORNE_LEFT || BOARD_EYELASH_CORNE_RIGHT)
 
 config ZMK_SLEEP
-    default y
+    default n
 
 config ZMK_SPLIT
     default y
