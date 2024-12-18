@@ -89,7 +89,7 @@ layers:
   - Sft+ 1
   - {t: Sft+ -, s: Sft+ _}
   - KP MULTIPLY
-  - KP PLUS
+  - +
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
