@@ -61,7 +61,7 @@ layers:
   - {t: AGr+ 7, s: AGr+ &}
   - {t: Sft+ 9, s: Sft+ (}
   - {t: AGr+ 9, s: AGr+ (}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-caps$$
   - RGB BRI
   - '&left_half'
