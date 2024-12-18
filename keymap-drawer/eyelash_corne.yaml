@@ -126,7 +126,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {t: ;, s: ':'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Alt+ $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-shift$$
   - {t: '`', s: '~'}
   - '7'
   - '8'
