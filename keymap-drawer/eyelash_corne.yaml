@@ -43,7 +43,7 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
-  - LGUI
+  - $$mdi:keyboard-space$$
   - Meta
   - Function
   - $$mdi:keyboard-space$$
