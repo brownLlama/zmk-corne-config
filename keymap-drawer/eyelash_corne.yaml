@@ -55,7 +55,7 @@ layers:
   - '&text_screenshot'
   - '&screenshot'
   - BT CLR ALL
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:play-pause$$
   - {t: AGr+ 8, s: AGr+ *}
   - {t: Sft+ 8, s: Sft+ *}
   - {t: AGr+ 7, s: AGr+ &}
@@ -69,7 +69,7 @@ layers:
   - '&right_screen'
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - PREVIOUS
-  - PLAY PAUSE
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:skip-next$$
   - {t: AGr+ 5, s: AGr+ %}
   - Sft+ 2
@@ -84,7 +84,7 @@ layers:
   - '&two_third'
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:volume-off$$
   - {t: Sft+ 5, s: Sft+ %}
   - Sft+ 1
   - {t: Sft+ -, s: Sft+ _}
