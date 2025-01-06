@@ -130,10 +130,10 @@
         meta_layer {
             display-name = "Meta";
             bindings = <
-&rgb_ug RGB_TOG  &rgb_ug RGB_EFR  &scroll_screenshot  &text_screenshot  &screenshot    &bt BT_CLR_ALL                           &kp C_PP                &kp RA(N8)  &kp LS(N8)        &kp RA(N7)     &kp LS(N9)       &kp RA(N9)        &kp DELETE
-&kp CAPSLOCK     &rgb_ug RGB_BRI  &left_half          &next_screen      &right_screen  &bt BT_SEL 0             &kp C_PREVIOUS  &none       &kp C_NEXT  &kp RA(N5)  &kp LS(NUMBER_2)  &kp LS(N0)     &kp EQUAL        &kp RA(NUMBER_6)  &none
-&kp LSHIFT       &rgb_ug RGB_BRD  &one_third          &full_screen      &two_third     &bt BT_SEL 1    &none                    &kp C_MUTE              &kp LS(N5)  &kp LS(NUMBER_1)  &kp LS(MINUS)  &kp KP_MULTIPLY  &kp KP_PLUS       &kp RIGHT_SHIFT
-                                                      &kp LEFT_ALT      &kp LEFT_GUI   &none                                                            &none       &kp SPACE         &kp RCTRL
+&bt BT_CLR_ALL  &bt BT_SEL 0  &scroll_screenshot  &text_screenshot  &screenshot    &rgb_ug RGB_TOG                           &kp C_PP                &kp RA(N8)  &kp LS(N8)        &kp RA(N7)     &kp LS(N9)       &kp RA(N9)        &kp DELETE
+&kp CAPSLOCK    &bt BT_SEL 1  &left_half          &next_screen      &right_screen  &rgb_ug RGB_EFF           &kp C_PREVIOUS  &none       &kp C_NEXT  &kp RA(N5)  &kp LS(NUMBER_2)  &kp LS(N0)     &kp EQUAL        &kp RA(NUMBER_6)  &none
+&kp LSHIFT      &bt BT_SEL 2  &one_third          &full_screen      &two_third     &none            &none                    &kp C_MUTE              &kp LS(N5)  &kp LS(NUMBER_1)  &kp LS(MINUS)  &kp KP_MULTIPLY  &kp KP_PLUS       &kp RIGHT_SHIFT
+                                                  &kp LEFT_ALT      &kp LEFT_GUI   &none                                                             &none       &kp SPACE         &kp RCTRL
             >;
 
             sensor-bindings = <&scroll_encoder>;
