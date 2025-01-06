@@ -49,45 +49,45 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-control$$
   Meta:
-  - RGB TOG
-  - RGB EFR
+  - BT CLR ALL
+  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - '&scroll_screenshot'
   - '&text_screenshot'
   - '&screenshot'
-  - BT CLR ALL
+  - RGB TOG
   - $$mdi:play-pause$$
-  - {t: AGr+ 8, s: AGr+ *}
-  - {t: Sft+ 8, s: Sft+ *}
-  - {t: AGr+ 7, s: AGr+ &}
-  - {t: Sft+ 9, s: Sft+ (}
-  - {t: AGr+ 9, s: AGr+ (}
+  - {t: AltGr+8, s: AltGr+*}
+  - {t: Sft+8, s: Sft+*}
+  - {t: AltGr+7, s: AltGr+&}
+  - {t: Sft+9, s: Sft+(}
+  - {t: AltGr+9, s: AltGr+(}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-caps$$
-  - RGB BRI
+  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - '&left_half'
   - '&next_screen'
   - '&right_screen'
-  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
+  - RGB EFF
   - PREVIOUS
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:skip-next$$
-  - {t: AGr+ 5, s: AGr+ %}
-  - Sft+ 2
-  - {t: Sft+ 0, s: Sft+ )}
+  - {t: AltGr+5, s: AltGr+%}
+  - Sft+2
+  - {t: Sft+0, s: Sft+)}
   - {t: '=', s: +}
-  - AGr+ 6
+  - AltGr+6
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-shift$$
-  - RGB BRD
+  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - '&one_third'
   - '&full_screen'
   - '&two_third'
-  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:volume-off$$
-  - {t: Sft+ 5, s: Sft+ %}
-  - Sft+ 1
-  - {t: Sft+ -, s: Sft+ _}
+  - {t: Sft+5, s: Sft+%}
+  - Sft+1
+  - {t: Sft+-, s: Sft+_}
   - KP MULTIPLY
   - KP PLUS
   - $$mdi:apple-keyboard-shift$$
@@ -105,9 +105,9 @@ layers:
   - '3'
   - '0'
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - AGr+ N
-  - AGr+ E
-  - AGr+ L
+  - AltGr+N
+  - AltGr+E
+  - AltGr+L
   - {t: '-', s: _}
   - {t: '[', s: '{'}
   - {t: '$$mdi:backspace$$', type: backspace}
@@ -134,10 +134,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - Sft+ 4
-  - Sft+ 6
-  - {t: AGr+Sft+ 7, s: AGr+Sft+ &}
-  - {t: Sft+ 7, s: Sft+ &}
+  - Sft+4
+  - Sft+6
+  - {t: AltGr+Sft+7, s: AltGr+Sft+&}
+  - {t: Sft+7, s: Sft+&}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
