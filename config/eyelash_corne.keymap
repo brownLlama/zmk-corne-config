@@ -74,35 +74,35 @@
             label = "LEFT_HALF";
         };
 
-        next_screen: next_screen {
+        maximize: next_screen {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LA(LC(LG(UP)))>;
             label = "NEXT_SCREEN";
         };
 
-        right_screen: right_screen {
+        right_half: right_screen {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LA(LC(LG(RIGHT)))>;
             label = "RIGHT_SCREEN";
         };
 
-        one_third: one_third {
+        file_search: one_third {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LA(LG(LEFT))>;
             label = "ONE_THIRD";
         };
 
-        two_third: two_third {
+        none: two_third {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LA(LG(RIGHT))>;
             label = "TWO_THIRD";
         };
 
-        full_screen: full_screen {
+        next_screen: full_screen {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LA(LC(LG(M)))>;
@@ -128,10 +128,10 @@
         meta_layer {
             display-name = "Meta";
             bindings = <
-&bt BT_CLR_ALL  &bt BT_SEL 0  &scroll_screenshot  &text_screenshot  &screenshot    &rgb_ug RGB_TOG                  &none         &kp RA(N8)  &kp LS(N8)        &kp RA(N7)     &kp LS(N9)       &kp RA(N9)        &kp DELETE
-&kp CAPSLOCK    &bt BT_SEL 1  &left_half          &next_screen      &right_screen  &rgb_ug RGB_EFF           &none  &none  &none  &kp RA(N5)  &kp LS(NUMBER_2)  &kp LS(N0)     &kp EQUAL        &kp RA(NUMBER_6)  &none
-&kp LSHIFT      &bt BT_SEL 2  &one_third          &full_screen      &two_third     &none            &none           &none         &kp LS(N5)  &kp LS(NUMBER_1)  &kp LS(MINUS)  &kp KP_MULTIPLY  &kp KP_PLUS       &kp RIGHT_SHIFT
-                                                  &kp LEFT_ALT      &kp LEFT_GUI   &none                                          &none       &kp SPACE         &kp RCTRL
+&bt BT_CLR_ALL  &bt BT_SEL 0  &scroll_screenshot  &text_screenshot  &screenshot   &rgb_ug RGB_TOG                  &none         &kp RA(N8)  &kp LS(N8)        &kp RA(N7)     &kp LS(N9)       &kp RA(N9)        &kp DELETE
+&kp CAPSLOCK    &bt BT_SEL 1  &left_half          &maximize         &right_half   &rgb_ug RGB_EFF           &none  &none  &none  &kp RA(N5)  &kp LS(NUMBER_2)  &kp LS(N0)     &kp EQUAL        &kp RA(NUMBER_6)  &none
+&kp LSHIFT      &bt BT_SEL 2  &file_search        &maximize         &none         &none            &none           &none         &kp LS(N5)  &kp LS(NUMBER_1)  &kp LS(MINUS)  &kp KP_MULTIPLY  &kp KP_PLUS       &kp RIGHT_SHIFT
+                                                  &kp LEFT_ALT      &kp LEFT_GUI  &none                                          &none       &kp SPACE         &kp RCTRL
             >;
 
             sensor-bindings = <&scroll_encoder>;
