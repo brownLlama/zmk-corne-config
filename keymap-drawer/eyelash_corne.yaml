@@ -80,8 +80,8 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - '&file_search'
-  - '&maximize'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&nothing'
+  - '&next_screen'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
