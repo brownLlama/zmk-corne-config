@@ -96,18 +96,18 @@
             label = "ONE_THIRD";
         };
 
-        nothing: two_third {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LA(LG(RIGHT))>;
-            label = "TWO_THIRD";
-        };
-
         maximize: full_screen {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LA(LC(LG(M)))>;
             label = "FULL_SCREEN";
+        };
+
+        prev_screen: prev_screen {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(LC(LG(DOWN)))>;
+            label = "PREV_SCREEN";
         };
     };
 
@@ -130,8 +130,8 @@
             display-name = "Meta";
             bindings = <
 &bt BT_CLR_ALL  &bt BT_SEL 0  &scroll_screenshot  &text_screenshot  &screenshot   &rgb_ug RGB_TOG                  &none         &kp RA(N8)  &kp LS(N8)        &kp RA(N7)     &kp LS(N9)       &kp RA(N9)        &kp DELETE
-&kp CAPSLOCK    &bt BT_SEL 1  &left_half          &next_screen      &right_half   &rgb_ug RGB_EFF           &none  &none  &none  &kp RA(N5)  &kp LS(NUMBER_2)  &kp LS(N0)     &kp EQUAL        &kp RA(NUMBER_6)  &none
-&kp LSHIFT      &bt BT_SEL 2  &file_search        &nothing          &maximize     &none            &none           &none         &kp LS(N5)  &kp LS(NUMBER_1)  &kp LS(MINUS)  &kp KP_MULTIPLY  &kp KP_PLUS       &kp RIGHT_SHIFT
+&kp CAPSLOCK    &bt BT_SEL 1  &left_half          &maximize         &right_half   &rgb_ug RGB_EFF           &none  &none  &none  &kp RA(N5)  &kp LS(NUMBER_2)  &kp LS(N0)     &kp EQUAL        &kp RA(NUMBER_6)  &none
+&kp LSHIFT      &bt BT_SEL 2  &prev_screen        &file_search      &next_screen  &none            &none           &none         &kp LS(N5)  &kp LS(NUMBER_1)  &kp LS(MINUS)  &kp KP_MULTIPLY  &kp KP_PLUS       &kp RIGHT_SHIFT
                                                   &kp LEFT_ALT      &kp LEFT_GUI  &none                                          &none       &kp SPACE         &kp RCTRL
             >;
 
@@ -141,10 +141,10 @@
         function_layer {
             display-name = "Function";
             bindings = <
-&none       &none                &kp DE_N1  &kp DE_N2      &kp DE_N3     &kp DE_N0                  &none         &kp RA(N)   &kp DE_EURO       &kp DE_AT         &kp RA(L)     &kp DE_U_UMLAUT  &kp BSPC
-&none       &kp DE_LESS_THAN     &kp DE_N4  &kp DE_N5      &kp DE_N6     &none               &none  &none  &none  &kp LEFT       &kp DOWN          &kp UP            &kp RIGHT     &kp DE_O_UMLAUT  &none
-&kp LSHIFT  &kp DE_GREATER_THAN  &kp DE_N7  &kp DE_N8      &kp DE_N9     &none      &none           &none         &kp DE_DOLLAR  &kp DE_AMPERSAND  &kp RA(LS(N7))  &kp DE_SLASH  &kp DE_A_UMLAUT  &kp RIGHT_SHIFT
-                                            &kp RIGHT_ALT  &kp LEFT_GUI  &kp LCTRL                                &none          &kp SPACE         &none
+&none       &none             &kp DE_N1  &kp DE_N2      &kp DE_N3     &kp DE_N0                  &none         &kp RA(N)      &kp DE_EURO       &kp RA(L)       &kp DE_SZ     &kp DE_U_UMLAUT  &kp BSPC
+&none       &none             &kp DE_N4  &kp DE_N5      &kp DE_N6     &none               &none  &none  &none  &kp LEFT       &kp DOWN          &kp UP          &kp RIGHT     &kp DE_O_UMLAUT  &none
+&kp LSHIFT  &kp DE_LESS_THAN  &kp DE_N7  &kp DE_N8      &kp DE_N9     &none      &none           &none         &kp DE_DOLLAR  &kp DE_AMPERSAND  &kp RA(LS(N7))  &kp DE_SLASH  &kp DE_A_UMLAUT  &kp RIGHT_SHIFT
+                                         &kp RIGHT_ALT  &kp LEFT_GUI  &kp LCTRL                                &none          &kp SPACE         &none
             >;
 
             sensor-bindings = <&inc_dec_kp LG(KP_PLUS) LG(KP_MINUS)>;
