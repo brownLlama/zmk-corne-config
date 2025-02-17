@@ -65,7 +65,7 @@ layers:
   - $$mdi:apple-keyboard-caps$$
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - '&left_half'
-  - '&maximize'
+  - '&next_screen'
   - '&right_half'
   - RGB EFF
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -81,7 +81,7 @@ layers:
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - '&file_search'
   - '&nothing'
-  - '&next_screen'
+  - '&maximize'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
