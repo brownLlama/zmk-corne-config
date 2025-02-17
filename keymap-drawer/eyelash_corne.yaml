@@ -56,11 +56,11 @@ layers:
   - '&screenshot'
   - RGB TOG
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: AltGr+8, s: AltGr+*}
-  - {t: Sft+8, s: Sft+*}
-  - {t: AltGr+7, s: AltGr+&}
-  - {t: Sft+9, s: Sft+(}
-  - {t: AltGr+9, s: AltGr+(}
+  - (RA(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 7 AND AMPERSAND)))
+  - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 8 AND ASTERISK)))
+  - (RA(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD NON US BACKSLASH AND PIPE)))
+  - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 9 AND LEFT PARENTHESIS)))
+  - (RA(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 0 AND RIGHT PARENTHESIS)))
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-caps$$
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
@@ -71,11 +71,11 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: AltGr+5, s: AltGr+%}
-  - Sft+2
-  - {t: Sft+0, s: Sft+)}
-  - {t: '=', s: +}
-  - AltGr+6
+  - (RA(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 8 AND ASTERISK)))
+  - ((LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 2 AND AT))))
+  - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 0 AND RIGHT PARENTHESIS)))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD EQUAL AND PLUS))
+  - (RA(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 9 AND LEFT PARENTHESIS)))
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-shift$$
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
@@ -85,11 +85,11 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: Sft+5, s: Sft+%}
-  - Sft+1
-  - {t: Sft+-, s: Sft+_}
-  - KP MULTIPLY
-  - KP PLUS
+  - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 5 AND PERCENT)))
+  - ((LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 1 AND EXCLAMATION))))
+  - ((LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD MINUS AND UNDERSCORE))))
+  - ((LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD RIGHT BRACKET AND RIGHT BRACE))))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD RIGHT BRACKET AND RIGHT BRACE))
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
