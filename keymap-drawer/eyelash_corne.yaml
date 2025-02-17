@@ -127,7 +127,7 @@ layers:
   - {t: ;, s: ':'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-shift$$
-  - {t: '`', s: '~'}
+  - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD NON US BACKSLASH AND PIPE)))
   - '7'
   - '8'
   - '9'
