@@ -6,7 +6,7 @@ layers:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD E))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD R))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD T))
-  - $$mdi:play-pause$$
+  - $$mdi:pan-up$$
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD Y))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD U))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD I))
@@ -19,9 +19,9 @@ layers:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD D))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD F))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD G))
-  - $$mdi:skip-previous$$
+  - $$mdi:pan-left$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:skip-next$$
+  - $$mdi:pan-right$$
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD H))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD J))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD K))
@@ -35,7 +35,7 @@ layers:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD V))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD B))
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:volume-off$$
+  - $$mdi:pan-down$$
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD N))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD M))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD COMMA AND LESS THAN))
@@ -55,7 +55,7 @@ layers:
   - '&text_screenshot'
   - '&screenshot'
   - RGB TOG
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:play-pause$$
   - (RA(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 8 AND ASTERISK)))
   - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 8 AND ASTERISK)))
   - (RA(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 7 AND AMPERSAND)))
@@ -68,9 +68,9 @@ layers:
   - '&maximize'
   - '&right_half'
   - RGB EFF
+  - $$mdi:skip-previous$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:skip-next$$
   - (RA(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 5 AND PERCENT)))
   - ((LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 2 AND AT))))
   - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 0 AND RIGHT PARENTHESIS)))
@@ -84,7 +84,7 @@ layers:
   - '&next_screen'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:volume-off$$
   - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 5 AND PERCENT)))
   - ((LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 1 AND EXCLAMATION))))
   - ((LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD MINUS AND UNDERSCORE))))
