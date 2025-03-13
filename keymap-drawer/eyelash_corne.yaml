@@ -82,7 +82,7 @@ layers:
   - '&prev_screen'
   - '&file_search'
   - '&next_screen'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&clipboard'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:volume-off$$
   - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 5 AND PERCENT)))
