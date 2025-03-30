@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: eyelash_corne}
 layers:
   Base:
   - $$mdi:keyboard-esc$$
@@ -95,7 +96,7 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:keyboard-space$$
+  - Alt+Ctl+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD L))
   - $$mdi:apple-keyboard-control$$
   Function:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
