@@ -65,9 +65,9 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-caps$$
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
-  - '&left_half'
+  - '&prev_screen'
   - '&maximize'
-  - '&right_half'
+  - '&next_screen'
   - RGB EFF
   - $$mdi:skip-previous$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -80,10 +80,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-shift$$
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
-  - '&prev_screen'
-  - '&file_search'
-  - '&next_screen'
+  - '&gif_rec'
   - '&clipboard'
+  - '&file_search'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:volume-off$$
   - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 5 AND PERCENT)))
@@ -117,7 +117,7 @@ layers:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 4 AND DOLLAR))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 5 AND PERCENT))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 6 AND CARET))
-  - '&gif_rec'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
