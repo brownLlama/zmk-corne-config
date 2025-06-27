@@ -589,13 +589,6 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:apple-keyboard-control"/>
 </g>
-<g class="combo none combopos-0">
-<path d="M422,205 l-179,-2" class="combo"/>
-<path d="M422,205 l-118,4" class="combo"/>
-<path d="M422,205 l316,-2" class="combo"/>
-<rect rx="6" ry="6" x="408" y="192" width="28" height="26" class="combo none"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="413" y="196" height="18" width="18.0" class="combo none tap glyph mdi:minus-circle-outline"/>
-</g>
 </g>
 </g>
 <g transform="translate(40, 318)" class="layer-Meta">
@@ -879,13 +872,6 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:apple-keyboard-control"/>
-</g>
-<g class="combo none combopos-0">
-<path d="M422,205 l-179,-2" class="combo"/>
-<path d="M422,205 l-118,4" class="combo"/>
-<path d="M422,205 l316,-2" class="combo"/>
-<rect rx="6" ry="6" x="408" y="192" width="28" height="26" class="combo none"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="413" y="196" height="18" width="18.0" class="combo none tap glyph mdi:minus-circle-outline"/>
 </g>
 </g>
 </g>
@@ -1177,13 +1163,6 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key none"/>
 <use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-9" y="-13" height="18" width="18.0" class="key none tap glyph mdi:minus-circle-outline"/>
-</g>
-<g class="combo none combopos-0">
-<path d="M422,205 l-179,-2" class="combo"/>
-<path d="M422,205 l-118,4" class="combo"/>
-<path d="M422,205 l316,-2" class="combo"/>
-<rect rx="6" ry="6" x="408" y="192" width="28" height="26" class="combo none"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="413" y="196" height="18" width="18.0" class="combo none tap glyph mdi:minus-circle-outline"/>
 </g>
 </g>
 </g>

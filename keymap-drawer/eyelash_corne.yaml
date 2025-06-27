@@ -147,6 +147,3 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-combos:
-- p: [42, 43, 47]
-  k: {t: '$$mdi:minus-circle-outline$$', type: none}
