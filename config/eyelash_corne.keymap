@@ -71,54 +71,47 @@
         file_search: one_third {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(LG(F))>;
+            bindings = <&kp LS(LG(LA(F)))>;
             label = "ONE_THIRD";
         };
 
         maximize: full_screen {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(LC(LG(M)))>;
+            bindings = <&kp LS(LG(LA(M)))>;
             label = "FULL_SCREEN";
         };
 
         prev_screen: prev_screen {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(LC(LG(DOWN)))>;
+            bindings = <&kp LC(LA(LG(DOWN)))>;
             label = "PREV_SCREEN";
         };
 
         clipboard: clipboard {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(LC(LG(C)))>;
+            bindings = <&kp LS(LG(LA(C)))>;
             label = "CLIPBOARD";
         };
 
         gif_rec: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(LC(LG(DE_G)))>;
+            bindings = <&kp LS(LG(LA(DE_G)))>;
             label = "NEW_MACRO";
         };
 
         next_screen: next_scr {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(LC(LG(UP)))>;
+            bindings = <&kp LC(LA(LG(UP)))>;
             label = "NEXT_SCR";
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        super_key {
-            bindings = <&none>;
-            key-positions = <42 43 47>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
