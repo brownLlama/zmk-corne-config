@@ -7,7 +7,7 @@ layers:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD E))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD R))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD T))
-  - $$mdi:pan-up$$
+  - aerospace
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD Y))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD U))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD I))
@@ -20,9 +20,9 @@ layers:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD D))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD F))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD G))
-  - $$mdi:pan-left$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: 'Alt+Ctl+$$mdi:apple-keyboard-command$$', h: '$$mdi:gesture-tap-hold$$'}
-  - $$mdi:pan-right$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD H))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD J))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD K))
@@ -36,7 +36,7 @@ layers:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD V))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD B))
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:pan-down$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD N))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD M))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD COMMA AND LESS THAN))
@@ -147,3 +147,52 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  aerospace:
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - Alt+Ctl+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 1 AND EXCLAMATION))
+  - Alt+Ctl+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 2 AND AT))
+  - Alt+Ctl+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 3 AND HASH))
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - Meh+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 1 AND EXCLAMATION))
+  - Meh+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 2 AND AT))
+  - Meh+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 3 AND HASH))
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - Alt+Ctl+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 4 AND DOLLAR))
+  - Alt+Ctl+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 5 AND PERCENT))
+  - Alt+Ctl+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 6 AND CARET))
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - Meh+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 4 AND DOLLAR))
+  - Meh+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 5 AND PERCENT))
+  - Meh+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 6 AND CARET))
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - Alt+Ctl+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 7 AND AMPERSAND))
+  - Alt+Ctl+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 8 AND ASTERISK))
+  - Alt+Ctl+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 9 AND LEFT PARENTHESIS))
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - Meh+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 7 AND AMPERSAND))
+  - Meh+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 8 AND ASTERISK))
+  - Meh+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 9 AND LEFT PARENTHESIS))
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
