@@ -119,10 +119,10 @@
         base_layer {
             display-name = "Base";
             bindings = <
-&kp ESC     &kp DE_Q  &kp DE_W  &kp DE_E  &kp DE_R      &kp DE_T                           &msc SCRL_UP                           &kp DE_Z  &kp DE_U   &kp DE_I      &kp DE_O       &kp DE_P      &kp BSPC
-&kp TAB     &kp DE_A  &kp DE_S  &kp DE_D  &kp DE_F      &kp DE_G           &msc SCRL_LEFT  &sk LA(LC(LEFT_GUI))  &msc SCRL_RIGHT  &kp DE_H  &kp DE_J   &kp DE_K      &kp DE_L       &kp DE_HASH   &kp RET
-&kp LSHIFT  &kp DE_Y  &kp DE_X  &kp DE_C  &kp DE_V      &kp DE_B  &none                    &msc SCRL_DOWN                         &kp DE_N  &kp DE_M   &kp DE_COMMA  &kp DE_PERIOD  &kp DE_MINUS  &kp RSHIFT
-                                &kp LALT  &kp LEFT_GUI  &mo 1                                                                     &mo 2     &kp SPACE  &kp LCTRL
+&kp ESC     &kp DE_Q  &kp DE_W  &kp DE_E  &kp DE_R      &kp DE_T                  &mo 3                        &kp DE_Z  &kp DE_U   &kp DE_I      &kp DE_O       &kp DE_P      &kp BSPC
+&kp TAB     &kp DE_A  &kp DE_S  &kp DE_D  &kp DE_F      &kp DE_G           &none  &sk LA(LC(LEFT_GUI))  &none  &kp DE_H  &kp DE_J   &kp DE_K      &kp DE_L       &kp DE_HASH   &kp RET
+&kp LSHIFT  &kp DE_Y  &kp DE_X  &kp DE_C  &kp DE_V      &kp DE_B  &none           &none                        &kp DE_N  &kp DE_M   &kp DE_COMMA  &kp DE_PERIOD  &kp DE_MINUS  &kp RSHIFT
+                                &kp LALT  &kp LEFT_GUI  &mo 1                                                  &mo 2     &kp SPACE  &kp LCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -150,6 +150,15 @@
             >;
 
             sensor-bindings = <&inc_dec_kp LG(KP_PLUS) LG(KP_MINUS)>;
+        };
+
+        aerospace {
+            bindings = <
+&trans  &trans  &kp LA(LC(DE_N1))  &kp LA(LC(DE_N2))  &kp LA(LC(DE_N3))  &trans                    &trans          &trans  &kp LS(LA(LC(DE_N1)))  &kp LS(LA(LC(DE_N2)))  &kp LS(LA(LC(DE_N3)))  &trans  &trans
+&trans  &trans  &kp LA(LC(DE_N4))  &kp LA(LC(DE_N5))  &kp LA(LC(DE_N6))  &trans            &trans  &trans  &trans  &trans  &kp LS(LA(LC(DE_N4)))  &kp LS(LA(LC(DE_N5)))  &kp LS(LA(LC(DE_N6)))  &trans  &trans
+&trans  &trans  &kp LA(LC(DE_N7))  &kp LA(LC(DE_N8))  &kp LA(LC(DE_N9))  &trans  &trans            &trans          &trans  &kp LS(LA(LC(DE_N7)))  &kp LS(LA(LC(DE_N8)))  &kp LS(LA(LC(DE_N9)))  &trans  &trans
+                                   &trans             &trans             &trans                                    &trans  &trans                 &trans
+            >;
         };
     };
 };
