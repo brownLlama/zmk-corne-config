@@ -7,7 +7,7 @@ layers:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD E))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD R))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD T))
-  - aerospace
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD Y))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD U))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD I))
@@ -154,7 +154,7 @@ layers:
   - Alt+Ctl+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 2 AND AT))
   - Alt+Ctl+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 3 AND HASH))
   - Alt+Ctl+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN))
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - F2
