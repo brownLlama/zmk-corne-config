@@ -128,8 +128,8 @@
     keymap {
         compatible = "zmk,keymap";
 
-        base_layer {
-            display-name = "Base";
+        base {
+            display-name = "base";
             bindings = <
 &kp ESC     &kp DE_Q  &kp DE_W  &kp DE_E      &kp DE_R      &kp DE_T                   &none                        &kp DE_Z  &kp DE_U   &kp DE_I      &kp DE_O       &kp DE_P      &kp BSPC
 &kp TAB     &kp DE_A  &kp DE_S  &kp DE_D      &kp DE_F      &kp DE_G            &none  &sk LA(LC(LEFT_GUI))  &none  &kp DE_H  &kp DE_J   &kp DE_K      &kp DE_L       &kp DE_HASH   &kp RET
@@ -140,8 +140,8 @@
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
-        meta_layer {
-            display-name = "Meta";
+        meta {
+            display-name = "meta";
             bindings = <
 &none       &bt BT_SEL 0  &scroll_screenshot  &text_screenshot  &screenshot   &rgb_ug RGB_TOG                       &kp C_PP                &kp DE_LEFT_BRACE    &kp DE_LEFT_PARENTHESIS  &kp DE_PIPE   &kp DE_RIGHT_PARENTHESIS  &kp DE_RIGHT_BRACE    &kp DELETE
 &none       &bt BT_SEL 1  &prev_screen        &maximize         &next_screen  &rgb_ug RGB_EFF           &kp C_PREV  &none       &kp C_NEXT  &kp DE_LEFT_BRACKET  &kp DE_DQT               &kp DE_EQUAL  &kp DE_ACUTE              &kp DE_RIGHT_BRACKET  &none
@@ -152,8 +152,8 @@
             sensor-bindings = <&scroll_encoder>;
         };
 
-        function_layer {
-            display-name = "Function";
+        function {
+            display-name = "func";
             bindings = <
 &none       &none             &kp DE_N1  &kp DE_N2      &kp DE_N3     &kp DE_N0                  &none         &kp DE_TILDE   &kp DE_EURO       &kp DE_AT         &kp DE_SZ     &kp DE_U_UMLAUT  &kp BSPC
 &none       &kp DE_CARET      &kp DE_N4  &kp DE_N5      &kp DE_N6     &none               &none  &none  &none  &kp LEFT       &kp DOWN          &kp UP            &kp RIGHT     &kp DE_O_UMLAUT  &none
@@ -174,12 +174,12 @@
         };
 
         windows {
-            display-name = "Base";
+            display-name = "win";
             bindings = <
-&kp ESC     &kp DE_Q  &kp DE_W  &kp DE_E       &kp DE_R   &kp DE_T                   &none                        &kp DE_Z  &kp DE_U   &kp DE_I      &kp DE_O       &kp DE_P      &kp BSPC
-&kp TAB     &kp DE_A  &kp DE_S  &kp DE_D       &kp DE_F   &kp DE_G            &none  &sk LA(LC(LEFT_GUI))  &none  &kp DE_H  &kp DE_J   &kp DE_K      &kp DE_L       &kp DE_HASH   &kp RET
-&shiftCaps  &kp DE_Y  &kp DE_X  &kp DE_C       &kp DE_V   &kp DE_B  &tog 0           &none                        &kp DE_N  &kp DE_M   &kp DE_COMMA  &kp DE_PERIOD  &kp DE_MINUS  &kp RSHIFT
-                                &kp RIGHT_ALT  &kp LCTRL  &layer                                                  &mo 2     &kp SPACE  &kp LEFT_GUI
+&kp ESC     &kp DE_Q  &kp DE_W  &kp DE_E       &kp DE_R   &kp DE_T                   &none         &kp DE_Z  &kp DE_U   &kp DE_I      &kp DE_O       &kp DE_P      &kp BSPC
+&kp TAB     &kp DE_A  &kp DE_S  &kp DE_D       &kp DE_F   &kp DE_G            &none  &to 0  &none  &kp DE_H  &kp DE_J   &kp DE_K      &kp DE_L       &kp DE_HASH   &kp RET
+&shiftCaps  &kp DE_Y  &kp DE_X  &kp DE_C       &kp DE_V   &kp DE_B  &tog 0           &none         &kp DE_N  &kp DE_M   &kp DE_COMMA  &kp DE_PERIOD  &kp DE_MINUS  &kp RSHIFT
+                                &kp RIGHT_ALT  &kp LCTRL  &layer                                   &mo 2     &kp SPACE  &kp LEFT_GUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
