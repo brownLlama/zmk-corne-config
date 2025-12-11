@@ -37,7 +37,7 @@
             compatible = "zmk,behavior-tap-dance";
             display-name = "Shift/Caps Lock Tap Dance";
             #binding-cells = <0>;
-            bindings = <&mo 1>, <&mo 3>;
+            bindings = <&mo 1>, <&mo 0>;
 
             label = "LAYER";
             tapping-term-ms = <300>;
@@ -133,7 +133,7 @@
             bindings = <
 &kp ESC     &kp DE_Q  &kp DE_W  &kp DE_E      &kp DE_R      &kp DE_T                  &none                        &kp DE_Z  &kp DE_U   &kp DE_I      &kp DE_O       &kp DE_P      &kp BSPC
 &kp TAB     &kp DE_A  &kp DE_S  &kp DE_D      &kp DE_F      &kp DE_G           &none  &sk LA(LC(LEFT_GUI))  &none  &kp DE_H  &kp DE_J   &kp DE_K      &kp DE_L       &kp DE_HASH   &kp RET
-&shiftCaps  &kp DE_Y  &kp DE_X  &kp DE_C      &kp DE_V      &kp DE_B  &to 4           &none                        &kp DE_N  &kp DE_M   &kp DE_COMMA  &kp DE_PERIOD  &kp DE_MINUS  &kp RSHIFT
+&shiftCaps  &kp DE_Y  &kp DE_X  &kp DE_C      &kp DE_V      &kp DE_B  &to 3           &none                        &kp DE_N  &kp DE_M   &kp DE_COMMA  &kp DE_PERIOD  &kp DE_MINUS  &kp RSHIFT
                                 &kp LEFT_ALT  &kp LEFT_GUI  &layer                                                 &mo 2     &kp SPACE  &kp LCTRL
             >;
 
