@@ -44,11 +44,11 @@ layers:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD SLASH AND QUESTION MARK))
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-control$$
   - '&layer'
   - Function
   - $$mdi:keyboard-space$$
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-command$$
   Meta:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
