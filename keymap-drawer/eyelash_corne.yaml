@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
-  Base:
+  base:
   - $$mdi:keyboard-esc$$
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD Q))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD W))
@@ -35,7 +35,7 @@ layers:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD C))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD V))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD B))
-  - {t: Base, h: toggle}
+  - {t: win, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD N))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD M))
@@ -44,12 +44,12 @@ layers:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD SLASH AND QUESTION MARK))
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-control$$
-  - '&layer'
-  - Function
-  - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-command$$
-  Meta:
+  - '&layer'
+  - func
+  - $$mdi:keyboard-space$$
+  - $$mdi:apple-keyboard-control$$
+  meta:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - '&scroll_screenshot'
@@ -98,7 +98,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-control$$
-  Function:
+  func:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 1 AND EXCLAMATION))
@@ -196,3 +196,52 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  win:
+  - $$mdi:keyboard-esc$$
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD Q))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD W))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD E))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD R))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD T))
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD Y))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD U))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD I))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD O))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD P))
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-tab$$
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD A))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD S))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD D))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD F))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD G))
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: base, h: toggle}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD H))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD J))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD K))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD L))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD BACKSLASH AND PIPE))
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - '&shiftCaps'
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD Z))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD X))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD C))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD V))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD B))
+  - {t: base, h: toggle}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD N))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD M))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD COMMA AND LESS THAN))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD SLASH AND QUESTION MARK))
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-control$$
+  - '&layer'
+  - func
+  - $$mdi:keyboard-space$$
+  - $$mdi:apple-keyboard-command$$
