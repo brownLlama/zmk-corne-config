@@ -14,21 +14,21 @@ layers:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD O))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD P))
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:keyboard-tab$$'}
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD A))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD S))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD D))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD F))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD G))
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: 'Alt+Ctl+$$mdi:apple-keyboard-command$$', h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD H))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD J))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD K))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD L))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD BACKSLASH AND PIPE))
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:keyboard-return$$'}
   - '&shiftCaps'
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD Z))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD X))
@@ -65,7 +65,7 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&gif_rec'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - RGB EFF
@@ -80,9 +80,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-shift$$
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
-  - '&gif_rec'
-  - '&clipboard'
-  - '&file_search'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - BT CLR ALL
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:volume-off$$
