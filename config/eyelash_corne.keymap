@@ -111,10 +111,10 @@
         base {
             display-name = "base";
             bindings = <
-&kp ESC     &kp DE_Q  &kp DE_W  &kp DE_E      &kp DE_R      &kp DE_T                   &none                        &kp DE_Z  &kp DE_U   &kp DE_I      &kp DE_O       &kp DE_P      &kp BSPC
-&kp TAB     &kp DE_A  &kp DE_S  &kp DE_D      &kp DE_F      &kp DE_G            &none  &sk LA(LC(LEFT_GUI))  &none  &kp DE_H  &kp DE_J   &kp DE_K      &kp DE_L       &kp DE_HASH   &kp RET
-&shiftCaps  &kp DE_Y  &kp DE_X  &kp DE_C      &kp DE_V      &kp DE_B   &to 4           &none                        &kp DE_N  &kp DE_M   &kp DE_COMMA  &kp DE_PERIOD  &kp DE_MINUS  &kp RSHIFT
-                                &kp LEFT_ALT  &kp LEFT_GUI  &layer1n3                                               &mo 2     &kp SPACE  &kp LCTRL
+&kp ESC       &kp DE_Q  &kp DE_W  &kp DE_E      &kp DE_R      &kp DE_T                   &none         &kp DE_Z  &kp DE_U   &kp DE_I      &kp DE_O       &kp DE_P      &kp BSPC
+&mt TAB CAPS  &kp DE_A  &kp DE_S  &kp DE_D      &kp DE_F      &kp DE_G            &none  &none  &none  &kp DE_H  &kp DE_J   &kp DE_K      &kp DE_L       &kp DE_HASH   &mt RET CAPSLOCK
+&shiftCaps    &kp DE_Y  &kp DE_X  &kp DE_C      &kp DE_V      &kp DE_B   &to 4           &none         &kp DE_N  &kp DE_M   &kp DE_COMMA  &kp DE_PERIOD  &kp DE_MINUS  &kp RSHIFT
+                                  &kp LEFT_ALT  &kp LEFT_GUI  &layer1n3                                &mo 2     &kp SPACE  &kp LCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -124,8 +124,8 @@
             display-name = "meta";
             bindings = <
 &none       &bt BT_SEL 0  &scroll_screenshot  &text_screenshot  &screenshot   &rgb_ug RGB_TOG                       &kp C_PP                &kp DE_LEFT_BRACE    &kp DE_LEFT_PARENTHESIS  &kp DE_PIPE   &kp DE_RIGHT_PARENTHESIS  &kp DE_RIGHT_BRACE    &kp DELETE
-&none       &bt BT_SEL 1  &none               &none             &none         &rgb_ug RGB_EFF           &kp C_PREV  &none       &kp C_NEXT  &kp DE_LEFT_BRACKET  &kp DE_DQT               &kp DE_EQUAL  &kp DE_ACUTE              &kp DE_RIGHT_BRACKET  &none
-&kp LSHIFT  &bt BT_SEL 2  &gif_rec            &clipboard        &file_search  &bt BT_CLR_ALL   &none                &kp C_MUTE              &kp DE_PERCENT       &kp DE_EXCL              &kp DE_QMARK  &kp DE_ASTRK              &kp DE_PLUS           &kp RIGHT_SHIFT
+&none       &bt BT_SEL 1  &gif_rec            &none             &none         &rgb_ug RGB_EFF           &kp C_PREV  &none       &kp C_NEXT  &kp DE_LEFT_BRACKET  &kp DE_DQT               &kp DE_EQUAL  &kp DE_ACUTE              &kp DE_RIGHT_BRACKET  &none
+&kp LSHIFT  &bt BT_SEL 2  &none               &none             &none         &bt BT_CLR_ALL   &none                &kp C_MUTE              &kp DE_PERCENT       &kp DE_EXCL              &kp DE_QMARK  &kp DE_ASTRK              &kp DE_PLUS           &kp RIGHT_SHIFT
                                               &kp LEFT_ALT      &kp LEFT_GUI  &none                                                         &none                &kp SPACE                &kp RCTRL
             >;
 
