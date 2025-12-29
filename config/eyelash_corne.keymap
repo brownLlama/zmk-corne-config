@@ -112,7 +112,7 @@
             display-name = "base";
             bindings = <
 &kp ESC       &kp DE_Q  &kp DE_W  &kp DE_E      &kp DE_R      &kp DE_T                   &none         &kp DE_Z  &kp DE_U   &kp DE_I      &kp DE_O       &kp DE_P      &kp BSPC
-&mt TAB CAPS  &kp DE_A  &kp DE_S  &kp DE_D      &kp DE_F      &kp DE_G            &none  &none  &none  &kp DE_H  &kp DE_J   &kp DE_K      &kp DE_L       &kp DE_HASH   &mt RET CAPSLOCK
+&mt CAPS TAB  &kp DE_A  &kp DE_S  &kp DE_D      &kp DE_F      &kp DE_G            &none  &none  &none  &kp DE_H  &kp DE_J   &kp DE_K      &kp DE_L       &kp DE_HASH   &mt CAPS RETURN
 &shiftCaps    &kp DE_Y  &kp DE_X  &kp DE_C      &kp DE_V      &kp DE_B   &to 4           &none         &kp DE_N  &kp DE_M   &kp DE_COMMA  &kp DE_PERIOD  &kp DE_MINUS  &kp RSHIFT
                                   &kp LEFT_ALT  &kp LEFT_GUI  &layer1n3                                &mo 2     &kp SPACE  &kp LCTRL
             >;
