@@ -28,17 +28,16 @@
             compatible = "zmk,behavior-tap-dance";
             display-name = "Shift/Caps Lock Tap Dance";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
+            bindings = <&kp LEFT_SHIFT>, <&kp CAPSLOCK>;
 
             label = "SHIFTCAPS";
-            tapping-term-ms = <300>;
         };
 
         layer1n3: layer1n3 {
             compatible = "zmk,behavior-tap-dance";
             display-name = "Shift/Caps Lock Tap Dance";
             #binding-cells = <0>;
-            bindings = <&mo 1>, <&mo 3>;
+            bindings = <&mo 1>, <&mo 0>;
 
             label = "LAYER1N3";
             tapping-term-ms = <300>;
@@ -81,20 +80,6 @@
             label = "SCREENSHOT";
         };
 
-        file_search: one_third {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(LG(LA(F)))>;
-            label = "ONE_THIRD";
-        };
-
-        clipboard: clipboard {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(LG(LA(C)))>;
-            label = "CLIPBOARD";
-        };
-
         gif_rec: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -108,20 +93,20 @@
     keymap {
         compatible = "zmk,keymap";
 
-        base {
-            display-name = "base";
+        Base {
+            display-name = "Base";
             bindings = <
-&kp ESC       &kp DE_Q  &kp DE_W  &kp DE_E      &kp DE_R      &kp DE_T                   &none         &kp DE_Z  &kp DE_U   &kp DE_I      &kp DE_O       &kp DE_P      &kp BSPC
-&mt CAPS TAB  &kp DE_A  &kp DE_S  &kp DE_D      &kp DE_F      &kp DE_G            &none  &none  &none  &kp DE_H  &kp DE_J   &kp DE_K      &kp DE_L       &kp DE_HASH   &mt CAPS RETURN
-&shiftCaps    &kp DE_Y  &kp DE_X  &kp DE_C      &kp DE_V      &kp DE_B   &to 4           &none         &kp DE_N  &kp DE_M   &kp DE_COMMA  &kp DE_PERIOD  &kp DE_MINUS  &kp RSHIFT
-                                  &kp LEFT_ALT  &kp LEFT_GUI  &layer1n3                                &mo 2     &kp SPACE  &kp LCTRL
+&kp ESC       &kp DE_Q  &kp DE_W  &kp DE_E      &kp DE_R      &kp DE_T                  &mo 3         &kp DE_Z  &kp DE_U   &kp DE_I      &kp DE_O       &kp DE_P      &kp BSPC
+&mt CAPS TAB  &kp DE_A  &kp DE_S  &kp DE_D      &kp DE_F      &kp DE_G           &none  &none  &none  &kp DE_H  &kp DE_J   &kp DE_K      &kp DE_L       &kp DE_HASH   &mt CAPS RETURN
+&shiftCaps    &kp DE_Y  &kp DE_X  &kp DE_C      &kp DE_V      &kp DE_B  &to 4           &none         &kp DE_N  &kp DE_M   &kp DE_COMMA  &kp DE_PERIOD  &kp DE_MINUS  &kp RSHIFT
+                                  &kp LEFT_ALT  &kp LEFT_GUI  &mo 1                                   &mo 2     &kp SPACE  &kp LCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
-        meta {
-            display-name = "meta";
+        FuncSym {
+            display-name = "FuncSym";
             bindings = <
 &none       &bt BT_SEL 0  &scroll_screenshot  &text_screenshot  &screenshot   &rgb_ug RGB_TOG                       &kp C_PP                &kp DE_LEFT_BRACE    &kp DE_LEFT_PARENTHESIS  &kp DE_PIPE   &kp DE_RIGHT_PARENTHESIS  &kp DE_RIGHT_BRACE    &kp DELETE
 &none       &bt BT_SEL 1  &gif_rec            &none             &none         &rgb_ug RGB_EFF           &kp C_PREV  &none       &kp C_NEXT  &kp DE_LEFT_BRACKET  &kp DE_DQT               &kp DE_EQUAL  &kp DE_ACUTE              &kp DE_RIGHT_BRACKET  &none
@@ -132,8 +117,8 @@
             sensor-bindings = <&scroll_encoder>;
         };
 
-        function {
-            display-name = "func";
+        NumArrow {
+            display-name = "NumArrow";
             bindings = <
 &none       &none             &kp DE_N1  &kp DE_N2      &kp DE_N3     &kp DE_N0                  &none         &kp DE_TILDE   &kp DE_EURO       &kp DE_AT         &kp DE_SZ     &kp DE_U_UMLAUT  &kp BSPC
 &none       &kp DE_CARET      &kp DE_N4  &kp DE_N5      &kp DE_N6     &none               &none  &none  &none  &kp LEFT       &kp DOWN          &kp UP            &kp RIGHT     &kp DE_O_UMLAUT  &none
@@ -144,17 +129,18 @@
             sensor-bindings = <&inc_dec_kp LG(KP_PLUS) LG(KP_MINUS)>;
         };
 
-        aerospace {
+        Aerospace {
+            display-name = "Aerospace";
             bindings = <
-&trans  &trans  &kp LA(LC(DE_N1))  &kp LA(LC(DE_N2))  &kp LA(LC(DE_N3))  &kp LA(LC(DE_PERIOD))                    &trans          &trans  &trans  &kp F2  &kp F12  &trans  &trans
-&trans  &trans  &kp LA(LC(DE_N4))  &kp LA(LC(DE_N5))  &kp LA(LC(DE_N6))  &kp LA(LC(DE_COMMA))             &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans  &trans
-&trans  &trans  &kp LA(LC(DE_N7))  &kp LA(LC(DE_N8))  &kp LA(LC(DE_N9))  &trans                 &trans            &trans          &trans  &trans  &trans  &trans   &trans  &trans
-                                   &trans             &trans             &kp LEFT_SHIFT                                           &trans  &trans  &trans
+&none           &none  &kp LA(LC(DE_N1))  &kp LA(LC(DE_N2))  &kp LA(LC(DE_N3))  &kp LA(LC(DE_PERIOD))                  &none         &none  &none  &kp F2  &kp F12  &none  &kp RIGHT_SHIFT
+&none           &none  &kp LA(LC(DE_N4))  &kp LA(LC(DE_N5))  &kp LA(LC(DE_N6))  &kp LA(LC(DE_COMMA))            &none  &none  &none  &none  &none  &none   &none    &none  &none
+&kp LEFT_SHIFT  &none  &kp LA(LC(DE_N7))  &kp LA(LC(DE_N8))  &kp LA(LC(DE_N9))  &none                  &none           &none         &none  &none  &none   &none    &none  &none
+                                          &none              &none              &none                                                &none  &none  &none
             >;
         };
 
-        windows {
-            display-name = "win";
+        Windows {
+            display-name = "Win";
             bindings = <
 &kp ESC     &kp DE_Q  &kp DE_W  &kp DE_E       &kp DE_R   &kp DE_T                   &none         &kp DE_Z  &kp DE_U   &kp DE_I      &kp DE_O       &kp DE_P      &kp BSPC
 &kp TAB     &kp DE_A  &kp DE_S  &kp DE_D       &kp DE_F   &kp DE_G            &none  &none  &none  &kp DE_H  &kp DE_J   &kp DE_K      &kp DE_L       &kp DE_HASH   &kp RET
