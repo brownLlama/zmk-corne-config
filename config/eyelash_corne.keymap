@@ -31,7 +31,7 @@
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
 
             label = "SHIFTCAPS";
-            tapping-term-ms = <200>;
+            tapping-term-ms = <300>;
         };
 
         layer1n3: layer1n3 {
@@ -41,7 +41,7 @@
             bindings = <&mo 1>, <&mo 3>;
 
             label = "LAYER1N3";
-            tapping-term-ms = <200>;
+            tapping-term-ms = <300>;
         };
     };
 
