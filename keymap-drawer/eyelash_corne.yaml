@@ -1,13 +1,13 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
-  base:
+  Base:
   - $$mdi:keyboard-esc$$
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD Q))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD W))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD E))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD R))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD T))
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Aerospace
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD Y))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD U))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD I))
@@ -35,7 +35,7 @@ layers:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD C))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD V))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD B))
-  - {t: win, h: toggle}
+  - {t: Win, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD N))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD M))
@@ -45,11 +45,11 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
-  - '&layer1n3'
-  - func
+  - FuncSym
+  - NumArrow
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-control$$
-  meta:
+  FuncSym:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - '&scroll_screenshot'
@@ -94,11 +94,11 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-control$$
-  func:
+  NumArrow:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 1 AND EXCLAMATION))
@@ -147,56 +147,56 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  aerospace:
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  Aerospace:
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Alt+Ctl+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 1 AND EXCLAMATION))
   - Alt+Ctl+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 2 AND AT))
   - Alt+Ctl+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 3 AND HASH))
   - Alt+Ctl+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN))
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F2
   - F12
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Alt+Ctl+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 4 AND DOLLAR))
   - Alt+Ctl+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 5 AND PERCENT))
   - Alt+Ctl+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 6 AND CARET))
   - Alt+Ctl+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD COMMA AND LESS THAN))
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Alt+Ctl+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 7 AND AMPERSAND))
   - Alt+Ctl+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 8 AND ASTERISK))
   - Alt+Ctl+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 9 AND LEFT PARENTHESIS))
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  win:
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  Win:
   - $$mdi:keyboard-esc$$
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD Q))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD W))
@@ -231,7 +231,7 @@ layers:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD C))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD V))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD B))
-  - {t: base, h: toggle}
+  - {t: Base, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD N))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD M))
@@ -242,6 +242,6 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
   - '&layer1n3'
-  - func
+  - NumArrow
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-command$$
