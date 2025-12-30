@@ -14,7 +14,7 @@ layers:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD O))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD P))
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-caps$$'}
+  - {t: '$$mdi:keyboard-tab$$', h: F1}
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD A))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD S))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD D))
@@ -28,7 +28,7 @@ layers:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD K))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD L))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD BACKSLASH AND PIPE))
-  - {t: RETURN, h: '$$mdi:apple-keyboard-caps$$'}
+  - {t: RETURN, h: F1}
   - '&shiftCaps'
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD Z))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD X))
