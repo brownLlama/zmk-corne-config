@@ -43,11 +43,11 @@
     shift_caps: shift_caps {
         compatible = "zmk,behavior-hold-tap";
         label = "SHIFT_CAPS";
-        bindings = <&kp>, <&mt>;
+        bindings = <&kp>, <&kp>;
 
         #binding-cells = <2>;
-        flavor = "tap-preferred";
         tapping-term-ms = <200>;
+        flavor = "tap-preferred";
     };
 
     macros {
