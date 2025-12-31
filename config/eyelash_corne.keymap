@@ -43,10 +43,10 @@
     shift_caps: shift_caps {
         compatible = "zmk,behavior-hold-tap";
         label = "SHIFT_CAPS";
-        bindings = <&kp>, <&kp>;
+        bindings = <&kp>, <&mt>;
 
         #binding-cells = <2>;
-        flavor = "hold-preferred";
+        flavor = "tap-preferred";
         tapping-term-ms = <200>;
     };
 
@@ -67,10 +67,10 @@
         Base {
             display-name = "Base";
             bindings = <
-&kp ESC                     &kp DE_Q  &kp DE_W  &kp DE_E      &kp DE_R      &kp DE_T                  &none         &kp DE_Z  &kp DE_U      &kp DE_I      &kp DE_O       &kp DE_P      &kp BSPC
-&kp TAB                     &kp DE_A  &kp DE_S  &kp DE_D      &kp DE_F      &kp DE_G           &none  &none  &none  &kp DE_H  &kp DE_J      &kp DE_K      &kp DE_L       &kp DE_HASH   &kp ENTER
-&shift_caps LEFT_SHIFT TAB  &kp DE_Y  &kp DE_X  &kp DE_C      &kp DE_V      &kp DE_B  &to 3           &none         &kp DE_N  &kp DE_M      &kp DE_COMMA  &kp DE_PERIOD  &kp DE_MINUS  &kp RSHIFT
-                                                &kp LEFT_ALT  &kp LEFT_GUI  &mo 1                                   &mo 2     &mt F1 SPACE  &kp LCTRL
+&kp ESC                          &kp DE_Q  &kp DE_W  &kp DE_E      &kp DE_R      &kp DE_T                  &none         &kp DE_Z  &kp DE_U      &kp DE_I      &kp DE_O       &kp DE_P      &kp BSPC
+&kp TAB                          &kp DE_A  &kp DE_S  &kp DE_D      &kp DE_F      &kp DE_G           &none  &none  &none  &kp DE_H  &kp DE_J      &kp DE_K      &kp DE_L       &kp DE_HASH   &kp ENTER
+&shift_caps LEFT_SHIFT CAPSLOCK  &kp DE_Y  &kp DE_X  &kp DE_C      &kp DE_V      &kp DE_B  &to 3           &none         &kp DE_N  &kp DE_M      &kp DE_COMMA  &kp DE_PERIOD  &kp DE_MINUS  &kp RSHIFT
+                                                     &kp LEFT_ALT  &kp LEFT_GUI  &mo 1                                   &mo 2     &mt F1 SPACE  &kp LCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
