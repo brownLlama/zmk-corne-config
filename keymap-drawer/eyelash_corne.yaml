@@ -29,7 +29,7 @@ layers:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD L))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD BACKSLASH AND PIPE))
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '&mt CAPSLOCK', h: '$$mdi:apple-keyboard-shift$$'}
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD Z))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD X))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD C))
