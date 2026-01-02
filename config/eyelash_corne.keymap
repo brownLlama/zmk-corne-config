@@ -59,6 +59,27 @@
             bindings = <&kp LS(LG(LA(DE_G)))>;
             label = "NEW_MACRO";
         };
+
+        screenshot: screenshot {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(LS(DE_N4))>;
+            label = "SCREENSHOT";
+        };
+
+        ocr: ocr {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LG(DE_N2))>;
+            label = "OCR";
+        };
+
+        scroll: scroll {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LG(DE_N1))>;
+            label = "SCROLL";
+        };
     };
 
     combos { compatible = "zmk,combos"; };
@@ -81,10 +102,10 @@
         FuncSym {
             display-name = "FunSym";
             bindings = <
-&none       &none  &kp LA(LC(DE_N1))  &kp LA(LC(DE_N2))  &kp LA(LC(DE_N3))  &kp LA(LC(DE_DOT))                         &kp C_PP                &kp DE_LEFT_BRACE    &kp DE_LEFT_PARENTHESIS  &kp DE_PIPE   &kp DE_RIGHT_PARENTHESIS  &kp DE_RIGHT_BRACE    &kp DELETE
-&none       &none  &kp LA(LC(DE_N4))  &kp LA(LC(DE_N5))  &kp LA(LC(DE_N6))  &kp LA(LC(DE_COMMA))           &kp C_PREV  &none       &kp C_NEXT  &kp DE_LEFT_BRACKET  &kp DE_DQT               &kp DE_EQUAL  &kp DE_ACUTE              &kp DE_RIGHT_BRACKET  &none
-&kp LSHIFT  &none  &kp LA(LC(DE_N7))  &kp LA(LC(DE_N8))  &kp LA(LC(DE_N9))  &none                 &none                &kp C_MUTE              &kp DE_PERCENT       &kp DE_EXCL              &kp DE_QMARK  &kp DE_ASTRK              &kp DE_PLUS           &kp RIGHT_SHIFT
-                                      &kp LEFT_ALT       &kp LEFT_GUI       &none                                                              &none                &kp SPACE                &kp RCTRL
+&none       &screenshot  &kp LA(LC(DE_N1))  &kp LA(LC(DE_N2))  &kp LA(LC(DE_N3))  &kp LA(LC(DE_DOT))                         &kp C_PP                &kp DE_LEFT_BRACE    &kp DE_LEFT_PARENTHESIS  &kp DE_PIPE   &kp DE_RIGHT_PARENTHESIS  &kp DE_RIGHT_BRACE    &kp DELETE
+&none       &ocr         &kp LA(LC(DE_N4))  &kp LA(LC(DE_N5))  &kp LA(LC(DE_N6))  &kp LA(LC(DE_COMMA))           &kp C_PREV  &none       &kp C_NEXT  &kp DE_LEFT_BRACKET  &kp DE_DQT               &kp DE_EQUAL  &kp DE_ACUTE              &kp DE_RIGHT_BRACKET  &none
+&kp LSHIFT  &scroll      &kp LA(LC(DE_N7))  &kp LA(LC(DE_N8))  &kp LA(LC(DE_N9))  &none                 &none                &kp C_MUTE              &kp DE_PERCENT       &kp DE_EXCL              &kp DE_QMARK  &kp DE_ASTRK              &kp DE_PLUS           &kp RIGHT_SHIFT
+                                            &kp LEFT_ALT       &kp LEFT_GUI       &none                                                              &none                &kp SPACE                &kp RCTRL
             >;
 
             sensor-bindings = <&scroll_encoder>;
