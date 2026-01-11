@@ -117,10 +117,10 @@
         NumArrow {
             display-name = "NumArr";
             bindings = <
-&bt BT_SEL 1    &bt BT_SEL 0      &kp DE_N1  &kp DE_N2      &kp DE_N3     &kp DE_N0                        &none         &kp DE_TILDE   &kp DE_EURO       &kp DE_AT         &kp DE_SZ     &kp DE_U_UMLAUT  &kp BSPC
-&bt BT_CLR      &bt BT_SEL 2      &kp DE_N4  &kp DE_N5      &kp DE_N6     &rgb_ug RGB_TOG           &none  &none  &none  &kp LEFT       &kp DOWN          &kp UP            &kp RIGHT     &kp DE_O_UMLAUT  &kp DE_CARET
-&kp LEFT_SHIFT  &kp DE_LESS_THAN  &kp DE_N7  &kp DE_N8      &kp DE_N9     &rgb_ug RGB_EFF  &none           &none         &kp DE_DOLLAR  &kp DE_AMPERSAND  &kp DE_BACKSLASH  &kp DE_SLASH  &kp DE_A_UMLAUT  &kp RIGHT_SHIFT
-                                             &kp RIGHT_ALT  &kp LEFT_GUI  &kp LCTRL                                      &none          &kp SPACE         &none
+&bt BT_SEL 1    &bt BT_SEL 0  &kp DE_N1  &kp DE_N2      &kp DE_N3     &kp DE_N0                        &none         &kp DE_TILDE   &kp DE_EURO       &kp DE_AT         &kp DE_SZ     &kp DE_U_UMLAUT  &kp BSPC
+&bt BT_CLR      &bt BT_SEL 2  &kp DE_N4  &kp DE_N5      &kp DE_N6     &rgb_ug RGB_TOG           &none  &none  &none  &kp LEFT       &kp DOWN          &kp UP            &kp RIGHT     &kp DE_O_UMLAUT  &kp DE_LESS_THAN
+&kp LEFT_SHIFT  &kp DE_CARET  &kp DE_N7  &kp DE_N8      &kp DE_N9     &rgb_ug RGB_EFF  &none           &none         &kp DE_DOLLAR  &kp DE_AMPERSAND  &kp DE_BACKSLASH  &kp DE_SLASH  &kp DE_A_UMLAUT  &kp RIGHT_SHIFT
+                                         &kp RIGHT_ALT  &kp LEFT_GUI  &kp LCTRL                                      &none          &kp SPACE         &none
             >;
 
             sensor-bindings = <&inc_dec_kp LG(KP_PLUS) LG(KP_MINUS)>;
